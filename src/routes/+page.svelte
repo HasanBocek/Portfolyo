@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
-          <img src="images/hasanbocek.jpeg" alt="Hasan BÖCEK" class="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl object-cover">
+          <img src="https://imgur.com/a/UyIbvVd" alt="Hasan BÖCEK" class="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl object-cover">
         </div>
       </div>
     </div>

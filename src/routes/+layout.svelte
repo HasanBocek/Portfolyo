@@ -8,6 +8,7 @@
 
 <svelte:head>
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </svelte:head>
 
 <div class="flex flex-col min-h-screen bg-gray-50">

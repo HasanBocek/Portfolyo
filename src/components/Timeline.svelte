@@ -22,7 +22,7 @@
     {#each events as event, i}
       <div class="relative">
         <!-- Circle marker - repositioned for mobile -->
-        <div class="absolute w-4 h-4 bg-gradient-to-br from-teal-400 to-emerald-500 rounded-full md:left-1/2 left-4 transform md:-translate-x-1/2 z-10 shadow-md"></div>
+        <div class="absolute w-4 h-4 bg-gradient-to-br from-teal-400 to-emerald-500 rounded-full md:left-1/2 left-3 transform md:-translate-x-1/2 z-10 shadow-md"></div>
         
         <!-- Content box - Different layouts for mobile and desktop -->
         <div class="flex flex-col md:flex-row items-start">

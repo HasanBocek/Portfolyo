@@ -101,7 +101,7 @@
                 bind:value={formData.title}
                 required
                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500"
-                placeholder="Mesaj başlığı"
+                placeholder="Mail başlığı"
               />
             </div>
             
@@ -113,7 +113,7 @@
                 required
                 rows="6"
                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 min-h-[150px] max-h-[400px]"
-                placeholder="Mesaj içeriği..."
+                placeholder="Mail içeriği..."
               ></textarea>
             </div>
             
@@ -132,7 +132,7 @@
                 <i class="bx bx-loader-alt bx-spin mr-2"></i>
                 Gönderiliyor...
               {:else}
-                Mesaj Gönder
+                Mail Gönder
               {/if}
             </button>
           </form>

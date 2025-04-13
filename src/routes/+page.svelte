@@ -36,7 +36,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
-          <img src="https://i.imgur.com/nqjPLL2.jpg" alt="Hasan BÖCEK" class="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl object-cover">
+          <img src="https://i.imgur.com/XZbNbLC.jpeg" alt="Hasan BÖCEK" class="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl object-cover">
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
   <section class="py-16 bg-gradient-to-r from-teal-400 to-emerald-300 text-white">
     <div class="container mx-auto px-4 text-center">
       <h2 class="text-3xl font-bold mb-6">Birlikte çalışalım!</h2>
-      <p class="text-xl mb-8 max-w-2xl mx-auto">Backend geliştirme ve sistem mimarisi konularında bir projeniz var mı? Heyecan verici fikirleri tartışmak ve birlikte hayata geçirmek için iletişime geçebilirsiniz.</p>
+      <p class="text-xl mb-8 max-w-2xl mx-auto">Yeni fikirleri tartışmak ve birlikte hayata geçirmek için iletişime geçebilirsiniz.</p>
       <a href="/contact" class="inline-block px-8 py-4 bg-white text-teal-600 font-medium rounded-lg hover:bg-gray-100 transition duration-300">
         Mail Gönder
       </a>

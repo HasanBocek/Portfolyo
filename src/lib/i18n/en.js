@@ -2,7 +2,7 @@ export const en = {
 	// Hero
 	hero: {
 		title: 'Hasan BÖCEK',
-		subtitle: 'Backend Developer & Electrical Engineering Student'
+		subtitle: 'Backend Developer & Electrical and Electronics Engineering Student'
 	},
 
 	// Social

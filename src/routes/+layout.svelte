@@ -8,12 +8,11 @@
 
 <svelte:head>
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
 </svelte:head>
 
-<div class="flex flex-col min-h-screen bg-gray-50">
+<div class="flex flex-col min-h-screen bg-white">
 	<Header />
-	<main class="flex-grow container mx-auto px-4 py-8">
+	<main class="flex-grow">
 		{@render children()}
 	</main>
 	<Footer />

@@ -1,171 +1,194 @@
 <script>
-  import { onMount } from 'svelte';
-  
-  let isVisible = false;
-  
-  onMount(() => {
-    isVisible = true;
-  });
+	import { onMount } from 'svelte';
+	import { t } from '../lib/i18n';
+
+	let isVisible = false;
+
+	onMount(() => {
+		isVisible = true;
+	});
 </script>
 
 <svelte:head>
-  <title>Hasan BÖCEK | Backend Developer</title>
-  <meta name="description" content="Hasan BÖCEK - Backend Developer ve Elektrik Elektronik Mühendisliği Öğrencisi">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Hasan BÖCEK | Backend Developer</title>
+	<meta name="description" content="Hasan BÖCEK - Backend Developer" />
+	<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
 </svelte:head>
 
-<div class="space-y-16">
-  <!-- Hero Section -->
-  <section class="py-16 md:py-24 transition-opacity duration-1000 {isVisible ? 'opacity-100' : 'opacity-0'}">
-    <div class="container mx-auto px-4">
-      <div class="flex flex-col lg:flex-row items-center">
-        <div class="lg:w-1/2 lg:pr-10">
-          <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gray-800">
-            Merhaba, ben <span class="text-teal-400">Hasan BÖCEK</span>
-          </h1>
-          <p class="text-xl text-gray-600 mb-8">
-            Backend Developer ve Elektrik Elektronik Mühendisliği öğrencisiyim. Teknoloji ve yazılım geliştirme konusunda tutkuluyum.
-          </p>
-          <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href="/projects" class="px-6 py-3 bg-teal-600 text-white font-medium rounded-lg hover:bg-teal-700 transition duration-300 text-center">
-              Projelerimi Görüntüle
-            </a>
-            <a href="/contact" class="px-6 py-3 border border-teal-600 text-teal-600 font-medium rounded-lg hover:bg-blue-50 transition duration-300 text-center">
-              İletişime Geç
-            </a>
-          </div>
-        </div>
-        <div class="lg:w-1/2 mt-10 lg:mt-0 flex justify-center">
-          <img src="https://i.imgur.com/XZbNbLC.png?1" alt="Hasan BÖCEK" class="w-64 h-64 md:w-80 md:h-80 rounded-full shadow-xl object-cover">
-        </div>
-      </div>
-    </div>
-  </section>
+<div>
+	<!-- Hero -->
+	<section class="py-16 transition-opacity duration-1000 {isVisible ? 'opacity-100' : 'opacity-0'}">
+		<div class="container mx-auto max-w-3xl px-4">
+			<div class="mb-16 flex flex-col items-center text-center">
+				<img
+					src="https://i.imgur.com/XZbNbLC.png?1"
+					alt="Hasan BÖCEK"
+					class="mb-8 h-40 w-40 rounded-full object-cover shadow-sm"
+				/>
+				<h1 class="mb-4 text-3xl font-bold text-gray-800">
+					{$t('hero.title')}
+				</h1>
+				<p class="mb-6 text-gray-600">
+					{$t('hero.subtitle')}
+				</p>
+				<div class="flex space-x-4">
+					{#each $t('socialLinks') as social}
+						<a
+							href={social.url}
+							target="_blank"
+							rel="noopener noreferrer"
+							class={social.color}
+							aria-label={social.name}
+						>
+							<i class="bx {social.icon} text-2xl"></i>
+						</a>
+					{/each}
+				</div>
+			</div>
 
-  <!-- Skills Section -->
-  <section class="py-16 bg-gray-50">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-12">Yeteneklerim</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100">
-          <div class="flex items-center mb-6">
-            <div class="w-12 h-12 flex items-center justify-center bg-teal-50 rounded-full mr-4">
-              <i class="bx bxl-nodejs text-2xl text-teal-500"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-800">Backend Teknolojileri</h3>
-          </div>
-          <ul class="space-y-3 text-gray-600">
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Node.js ve Express</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>RESTful API Tasarımı ve Geliştirme</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>MVC, MicroServis, Serverless Mimari</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Server Side Coding</span>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100">
-          <div class="flex items-center mb-6">
-            <div class="w-12 h-12 flex items-center justify-center bg-teal-50 rounded-full mr-4">
-              <i class="bx bx-data text-2xl text-teal-500"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-800">Veritabanı & ORM</h3>
-          </div>
-          <ul class="space-y-3 text-gray-600">
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>MongoDB</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Object Relational Mapping (ORM)</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Veritabanı Tasarımı ve Optimizasyonu</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Sorgu Optimizasyonu</span>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100">
-          <div class="flex items-center mb-6">
-            <div class="w-12 h-12 flex items-center justify-center bg-teal-50 rounded-full mr-4">
-              <i class="bx bx-shield-quarter text-2xl text-teal-500"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-800">Güvenlik & Kimlik Doğrulama</h3>
-          </div>
-          <ul class="space-y-3 text-gray-600">
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Authentication & Authorization</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>OAuth2 & JWT</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>SSL/TLS</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Güvenli API Tasarımı</span>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100">
-          <div class="flex items-center mb-6">
-            <div class="w-12 h-12 flex items-center justify-center bg-teal-50 rounded-full mr-4">
-              <i class="bx bx-cog text-2xl text-teal-500"></i>
-            </div>
-            <h3 class="text-xl font-semibold text-gray-800">Araçlar & Teknikler</h3>
-          </div>
-          <ul class="space-y-3 text-gray-600">
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Git & GitHub</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Troubleshooting & Debugging</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>CI/CD Pipeline</span>
-            </li>
-            <li class="flex items-center">
-              <i class="bx bx-check-circle text-teal-500 mr-2"></i>
-              <span>Test Driven Development (TDD)</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- Call to Action -->
-  <section class="py-16 bg-gradient-to-r from-teal-400 to-emerald-300 text-white">
-    <div class="container mx-auto px-4 text-center">
-      <h2 class="text-3xl font-bold mb-6">Birlikte çalışalım!</h2>
-      <p class="text-xl mb-8 max-w-2xl mx-auto">Yeni fikirleri tartışmak ve birlikte hayata geçirmek için iletişime geçebilirsiniz.</p>
-      <a href="/contact" class="inline-block px-8 py-4 bg-white text-teal-600 font-medium rounded-lg hover:bg-gray-100 transition duration-300">
-        Mail Gönder
-      </a>
-    </div>
-  </section>
+			<!-- Skills -->
+			<div class="mb-12">
+				<h2 class="mb-6 text-center text-2xl font-bold">{$t('skills.title')}</h2>
+				<div class="flex flex-wrap justify-center gap-2">
+					{#each $t('skills.items') as skill}
+						<span class="rounded bg-gray-100 px-3 py-1.5 text-sm text-gray-700">{skill}</span>
+					{/each}
+				</div>
+			</div>
+
+			<!-- Projects -->
+			<div class="mb-12">
+				<h2 class="mb-6 text-center text-2xl font-bold">{$t('projects.title')}</h2>
+				<div class="overflow-x-auto">
+					<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
+						{#each $t('projects.items') as project}
+							<div class="flex h-full flex-col rounded-lg border border-gray-100 bg-white p-4">
+								<div class="flex-grow">
+									<h3 class="mb-2 font-semibold text-gray-800">{project.title}</h3>
+									<p class="mb-3 text-sm text-gray-600">{project.description}</p>
+									<div class="mb-4 flex flex-wrap gap-2">
+										{#each project.tech as tech}
+											<span class="rounded bg-gray-100 px-2 py-1 text-xs text-gray-700">{tech}</span
+											>
+										{/each}
+									</div>
+								</div>
+								<div class="mt-auto flex space-x-2">
+									{#if project.github}
+										<a
+											href={project.github}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="flex items-center justify-center rounded bg-gray-800 px-3 py-1 text-sm text-white transition-colors hover:bg-gray-700"
+										>
+											<i class="bx bxl-github mr-1 text-sm"></i>
+											{$t('projects.buttons.github')}
+										</a>
+									{/if}
+									{#if project.live}
+										<a
+											href={project.live}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="flex items-center justify-center rounded border border-gray-300 px-3 py-1 text-sm text-gray-700 transition-colors hover:bg-gray-50"
+										>
+											<i class="bx bx-link-external mr-1 text-sm"></i>
+											{$t('projects.buttons.live')}
+										</a>
+									{/if}
+								</div>
+							</div>
+						{/each}
+					</div>
+				</div>
+			</div>
+
+			<!-- Education -->
+			<div class="mb-12">
+				<h2 class="mb-6 text-center text-2xl font-bold">{$t('education.title')}</h2>
+				<div class="space-y-4">
+					{#each $t('education.items') as edu}
+						<div class="rounded-lg border border-gray-100 bg-white p-6">
+							<div class="mb-2 flex flex-col md:flex-row md:items-start md:justify-between">
+								<h3 class="font-semibold text-gray-800">{edu.degree}</h3>
+								<span class="mt-1 text-sm text-gray-500 md:mt-0">{edu.period}</span>
+							</div>
+							<p class="mb-2 text-sm text-gray-700">{edu.institution}</p>
+							<p class="text-sm text-gray-600">{edu.description}</p>
+						</div>
+					{/each}
+				</div>
+			</div>
+
+			<!-- Club Timeline -->
+			<div class="mb-12">
+				<h2 class="mb-6 text-center text-2xl font-bold">{$t('clubTimeline.title')}</h2>
+				<div class="relative">
+					<div
+						class="absolute top-0 left-5 h-full w-0.5 transform bg-gray-200 md:left-1/2 md:-translate-x-1/2"
+					></div>
+
+					<div class="space-y-10">
+						{#each $t('clubTimeline.items') as item, i}
+							<div class="relative hidden md:flex">
+								<div
+									class="absolute left-1/2 z-10 mt-1.5 h-4 w-4 -translate-x-1/2 transform rounded-full bg-gray-800"
+								></div>
+
+								<div class="w-1/2 pr-12 text-right {i % 2 === 0 ? 'block' : 'invisible'}">
+									{#if i % 2 === 0}
+										<span
+											class="mb-2 inline-block rounded bg-gray-100 px-3 py-1 text-xs text-gray-700"
+											>{item.period}</span
+										>
+										<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
+										<p class="mt-1 text-gray-700">{item.club}</p>
+										<p class="mt-2 text-gray-600">{item.description}</p>
+									{/if}
+								</div>
+
+								<div class="w-1/2 pl-12 {i % 2 !== 0 ? 'block' : 'invisible'}">
+									{#if i % 2 !== 0}
+										<span
+											class="mb-2 inline-block rounded bg-gray-100 px-3 py-1 text-xs text-gray-700"
+											>{item.period}</span
+										>
+										<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
+										<p class="mt-1 text-gray-700">{item.club}</p>
+										<p class="mt-2 text-gray-600">{item.description}</p>
+									{/if}
+								</div>
+							</div>
+
+							<div class="relative pl-12 md:hidden">
+								<div
+									class="absolute top-6 left-5 z-10 h-3 w-3 -translate-x-1.5 transform rounded-full bg-gray-800"
+								></div>
+
+								<div class="rounded-lg border border-gray-100 bg-white p-4">
+									<span
+										class="mb-2 inline-block rounded bg-gray-100 px-3 py-1 text-xs text-gray-700"
+										>{item.period}</span
+									>
+									<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
+									<p class="mt-1 text-gray-700">{item.club}</p>
+									<p class="mt-2 text-gray-600">{item.description}</p>
+								</div>
+							</div>
+						{/each}
+					</div>
+				</div>
+			</div>
+
+			<!-- Contact -->
+			<div class="text-center">
+				<a
+					href="mailto:mail@hasanbocek.com"
+					class="transition-duration-300 inline-block rounded-lg bg-gray-800 px-6 py-3 font-medium text-white hover:bg-gray-700"
+				>
+					{$t('contact.title')}
+				</a>
+			</div>
+		</div>
+	</section>
 </div>

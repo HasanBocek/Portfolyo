@@ -63,7 +63,7 @@ export const en = {
 			{
 				title: 'FR - Recipe Sharing Application',
 				description:
-					'A platform application where users can add, search, evaluate and share recipes',
+					'A platform where users can add, search, evaluate and share recipes',
 				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
 				github: 'https://github.com/HasanBocek/Food-Recipe-Backend'
 			},

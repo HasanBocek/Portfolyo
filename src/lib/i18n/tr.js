@@ -63,7 +63,7 @@ export const tr = {
 			{
 				title: 'FR - Yemek Tarifi Paylaşma Uygulaması',
 				description:
-					'Kullanıcıların tarif ekleyebildiği, arayabildiği, değerlendirebildiği ve paylaşabildiği bir platform uygulaması',
+					'Kullanıcıların tarif ekleyebildiği, arayabildiği, değerlendirebildiği ve paylaşabildiği bir platform',
 				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
 				github: 'https://github.com/HasanBocek/Food-Recipe-Backend'
 			},

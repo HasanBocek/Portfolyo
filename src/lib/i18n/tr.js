@@ -78,7 +78,7 @@ export const tr = {
 				title: 'SPT - Öğrenci Süreç Takip Uygulaması',
 				description:
 					'Eğitim kurumları için öğrenci ilerlemesi ve performansının takibini sağlayan, eğitmenler ve yöneticiler için analiz özellikleri sunan bir sistem',
-				tech: ['Node.js', 'Express', 'MongoDB'],
+				tech: ['Node.js', 'Express', 'MongoDB', "EJS", "Bootstrap"],
 				github: 'https://github.com/HasanBocek/spt'
 			}
 		],

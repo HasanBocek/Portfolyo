@@ -78,7 +78,7 @@ export const en = {
 				title: 'SPT - Student Process Tracking',
 				description:
 					'A system that enables educational institutions to track student progress and performance and provides analytics for instructors and administrators',
-				tech: ['Node.js', 'Express', 'MongoDB'],
+				tech: ['Node.js', 'Express', 'MongoDB', "EJS", "Bootstrap"],
 				github: 'https://github.com/HasanBocek/spt'
 			}
 		],

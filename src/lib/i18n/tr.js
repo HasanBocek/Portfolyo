@@ -55,6 +55,12 @@ export const tr = {
 		title: 'Projeler',
 		items: [
 			{
+				title: 'TCMS - Tenis Kulüp Yönetim Sistemi',
+				description:
+					'Tenis kulübünün yönetimi için, üyelerin yönetilebildiği, grup derslerinin oluşturulabildiği ve yoklamaların alınabilindiği bir sistem',
+				tech: ['Svelte', 'Node.JS', 'MongoDB']
+				},
+			{
 				title: 'ToonApp - IOS Mentorluk Uygulaması',
 				description:
 					'Kulüp bazında yapılan, IOS mentörlük programı kapsamında geliştirilen bir proje',

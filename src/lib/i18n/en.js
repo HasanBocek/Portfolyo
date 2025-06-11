@@ -55,6 +55,12 @@ export const en = {
 		title: 'Projects',
 		items: [
 			{
+				title: 'TCMS - Tennis Club Management System',
+				description:
+					'A system for the management of the tennis club, where members can be managed, group lessons can be created and attendance can be taken',
+				tech: ['Svelte', 'Node.JS', 'MongoDB']
+				},
+			{
 				title: 'ToonApp - IOS Mentorship Application',
 				description:
 					'A club-based project developed within the scope of the IOS mentoring programme',

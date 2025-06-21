@@ -2,7 +2,9 @@ export const en = {
 	// Hero
 	hero: {
 		title: 'Hasan BÖCEK',
-		subtitle: 'Backend Developer & Electrical and Electronics Engineering Student'
+		subtitle: 'Backend Developer & Electrical and Electronics Engineering Student',
+		quote: "Trust me, i'm an engineer !",
+		quoteAuthor: "Igor Pachmelnik Zakuskov"
 	},
 
 	// Social

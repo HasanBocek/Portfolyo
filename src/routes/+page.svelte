@@ -31,6 +31,10 @@
 				<p class="mb-6 text-gray-600">
 					{$t('hero.subtitle')}
 				</p>
+				<blockquote class="mb-6 pl-4 border-l-4 border-gray-300 text-gray-500">
+  					<p style="font-family: 'Comic Neue'; font-style: italic; display: block;">“{$t('hero.quote')}“</p>
+  					<footer class="mb-2 text-xs text-gray-400">– {$t('hero.quoteAuthor')}</footer>
+				</blockquote>
 				<div class="flex space-x-4">
 					{#each $t('socialLinks') as social}
 						<a

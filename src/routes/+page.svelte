@@ -1,12 +1,6 @@
 <script>
-	import { onMount } from 'svelte';
 	import { t } from '../lib/i18n';
-
-	let isVisible = false;
-
-	onMount(() => {
-		isVisible = true;
-	});
+	import { scrollAnimation } from '../lib/scrollAnimation.js';
 </script>
 
 <svelte:head>
@@ -17,9 +11,9 @@
 
 <div>
 	<!-- Hero -->
-	<section class="py-16 transition-opacity duration-1000 {isVisible ? 'opacity-100' : 'opacity-0'}">
+	<section class="py-16">
 		<div class="container mx-auto max-w-3xl px-4">
-			<div class="mb-16 flex flex-col items-center text-center">
+			<div class="mb-16 flex flex-col items-center text-center" use:scrollAnimation>
 				<img
 					src="https://i.imgur.com/XZbNbLC.png?1"
 					alt="Hasan BÖCEK"
@@ -31,9 +25,11 @@
 				<p class="mb-6 text-gray-600">
 					{$t('hero.subtitle')}
 				</p>
-				<blockquote class="mb-6 pl-4 border-l-4 border-gray-300 text-gray-500">
-  					<p style="font-family: 'Comic Neue'; font-style: italic; display: block;">“{$t('hero.quote')}“</p>
-  					<footer class="mb-2 text-xs text-gray-400">– {$t('hero.quoteAuthor')}</footer>
+				<blockquote class="mb-6 border-l-4 border-gray-300 pl-4 text-gray-500">
+					<p style="font-family: 'Comic Neue'; font-style: italic; display: block;">
+						“{$t('hero.quote')}“
+					</p>
+					<footer class="mb-2 text-xs text-gray-400">– {$t('hero.quoteAuthor')}</footer>
 				</blockquote>
 				<div class="flex space-x-4">
 					{#each $t('socialLinks') as social}
@@ -51,7 +47,7 @@
 			</div>
 
 			<!-- Skills -->
-			<div class="mb-12">
+			<div class="mb-12" use:scrollAnimation>
 				<h2 class="mb-6 text-center text-2xl font-bold">{$t('skills.title')}</h2>
 				<div class="flex flex-wrap justify-center gap-2">
 					{#each $t('skills.items') as skill}
@@ -61,7 +57,7 @@
 			</div>
 
 			<!-- Projects -->
-			<div class="mb-12">
+			<div class="mb-12" use:scrollAnimation>
 				<h2 class="mb-6 text-center text-2xl font-bold">{$t('projects.title')}</h2>
 				<div class="overflow-x-auto">
 					<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
@@ -108,7 +104,7 @@
 			</div>
 
 			<!-- Education -->
-			<div class="mb-12">
+			<div class="mb-12" use:scrollAnimation>
 				<h2 class="mb-6 text-center text-2xl font-bold">{$t('education.title')}</h2>
 				<div class="space-y-4">
 					{#each $t('education.items') as edu}
@@ -125,7 +121,7 @@
 			</div>
 
 			<!-- Club Timeline -->
-			<div class="mb-12">
+			<div class="mb-12" use:scrollAnimation>
 				<h2 class="mb-6 text-center text-2xl font-bold">{$t('clubTimeline.title')}</h2>
 				<div class="relative">
 					<div
@@ -185,7 +181,7 @@
 			</div>
 
 			<!-- Contact -->
-			<div class="text-center">
+			<div class="text-center" use:scrollAnimation>
 				<a
 					href="mailto:mail@hasanbocek.com"
 					class="transition-duration-300 inline-block rounded-lg bg-gray-800 px-6 py-3 font-medium text-white hover:bg-gray-700"

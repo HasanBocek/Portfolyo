@@ -31,6 +31,7 @@
 					</p>
 					<footer class="mb-2 text-xs text-gray-400">– {$t('hero.quoteAuthor')}</footer>
 				</blockquote>
+				<p class="mb-4 text-gray-600">{$t('hero.favoriteMusic')}</p>
 				<div class="flex space-x-4">
 					{#each $t('socialLinks') as social}
 						<a

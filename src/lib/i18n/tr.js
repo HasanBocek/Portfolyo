@@ -4,7 +4,8 @@ export const tr = {
 		title: 'Hasan BÖCEK',
 		subtitle: 'Backend Geliştirici & Elektrik Elektronik Mühendisliği Öğrencisi',
 		quote: "Trust me, i'm an engineer !",
-		quoteAuthor: "Igor Pachmelnik Zakuskov"
+		quoteAuthor: 'Igor Pachmelnik Zakuskov',
+		favoriteMusic: 'Favori Müzik: Linkin Park - Numb'
 	},
 
 	// Social
@@ -61,7 +62,7 @@ export const tr = {
 				description:
 					'Tenis kulübünün yönetimi için, üyelerin yönetilebildiği, grup derslerinin oluşturulabildiği ve yoklamaların alınabilindiği bir sistem',
 				tech: ['Svelte', 'Node.JS', 'MongoDB']
-				},
+			},
 			{
 				title: 'ToonApp - IOS Mentorluk Uygulaması',
 				description:
@@ -86,7 +87,7 @@ export const tr = {
 				title: 'SPT - Öğrenci Süreç Takip Uygulaması',
 				description:
 					'Eğitim kurumları için öğrenci ilerlemesi ve performansının takibini sağlayan, eğitmenler ve yöneticiler için analiz özellikleri sunan bir sistem',
-				tech: ['Node.js', 'Express', 'MongoDB', "EJS", "Bootstrap"],
+				tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap'],
 				github: 'https://github.com/HasanBocek/spt'
 			}
 		],

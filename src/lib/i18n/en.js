@@ -4,7 +4,8 @@ export const en = {
 		title: 'Hasan BÖCEK',
 		subtitle: 'Backend Developer & Electrical and Electronics Engineering Student',
 		quote: "Trust me, i'm an engineer !",
-		quoteAuthor: "Igor Pachmelnik Zakuskov"
+		quoteAuthor: 'Igor Pachmelnik Zakuskov',
+		favoriteMusic: 'Favorite Music: Linkin Park - Numb'
 	},
 
 	// Social
@@ -61,7 +62,7 @@ export const en = {
 				description:
 					'A system for the management of the tennis club, where members can be managed, group lessons can be created and attendance can be taken',
 				tech: ['Svelte', 'Node.JS', 'MongoDB']
-				},
+			},
 			{
 				title: 'ToonApp - IOS Mentorship Application',
 				description:
@@ -70,8 +71,7 @@ export const en = {
 			},
 			{
 				title: 'FR - Recipe Sharing Application',
-				description:
-					'A platform where users can add, search, evaluate and share recipes',
+				description: 'A platform where users can add, search, evaluate and share recipes',
 				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
 				github: 'https://github.com/HasanBocek/Food-Recipe-Backend'
 			},
@@ -86,7 +86,7 @@ export const en = {
 				title: 'SPT - Student Process Tracking',
 				description:
 					'A system that enables educational institutions to track student progress and performance and provides analytics for instructors and administrators',
-				tech: ['Node.js', 'Express', 'MongoDB', "EJS", "Bootstrap"],
+				tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap'],
 				github: 'https://github.com/HasanBocek/spt'
 			}
 		],

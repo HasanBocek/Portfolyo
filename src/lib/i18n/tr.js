@@ -5,7 +5,7 @@ export const tr = {
 		subtitle: 'Backend Geliştirici & Elektrik Elektronik Mühendisliği Öğrencisi',
 		quote: "Trust me, i'm an engineer !",
 		quoteAuthor: 'Igor Pachmelnik Zakuskov',
-		favoriteMusic: 'Favori Müzik: Linkin Park - Numb'
+		favoriteMusic: 'Favori Müzik: Between Us - Robin Schlotz'
 	},
 
 	// Social
@@ -114,7 +114,7 @@ export const tr = {
 		title: 'Kulüp Sorumlulukları',
 		items: [
 			{
-				period: 'Nisan 2025 - Günümüz',
+				period: 'Nisan 2025 - Haziran 2025',
 				role: 'Yönetim Kurulu Üyesi',
 				club: 'KTÜCEC (Bilgisayar Mühendisliği Kulübü)',
 				description:
@@ -123,7 +123,7 @@ export const tr = {
 			{
 				period: 'Şubat 2025 - Günümüz',
 				role: 'Başkan Yardımcısı',
-				club: 'KTÜ Tenis Kulübü',
+				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTÜ Tenis Kulübü</a>',
 				description:
 					'Organizasyonların planlanması, üye iletişimi ve kulüp faaliyetlerinin düzenli yürütülmesinde aktif rol alıyorum'
 			},
@@ -137,7 +137,7 @@ export const tr = {
 			{
 				period: 'Ekim 2024 - Günümüz',
 				role: 'Tenis Antrenörü',
-				club: 'KTÜ Tenis Kulübü',
+				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTÜ Tenis Kulübü</a>',
 				description:
 					'Tenis kulübü bünyesinde, üyelere yönelik başlangıç ve orta seviye gruplarına tenis eğitimi veriyorum'
 			}

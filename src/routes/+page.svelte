@@ -143,7 +143,7 @@
 											>{item.period}</span
 										>
 										<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
-										<p class="mt-1 text-gray-700">{item.club}</p>
+										<p class="mt-1 text-gray-700">{@html item.club}</p>
 										<p class="mt-2 text-gray-600">{item.description}</p>
 									{/if}
 								</div>
@@ -155,7 +155,7 @@
 											>{item.period}</span
 										>
 										<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
-										<p class="mt-1 text-gray-700">{item.club}</p>
+										<p class="mt-1 text-gray-700">{@html item.club}</p>
 										<p class="mt-2 text-gray-600">{item.description}</p>
 									{/if}
 								</div>
@@ -172,7 +172,7 @@
 										>{item.period}</span
 									>
 									<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
-									<p class="mt-1 text-gray-700">{item.club}</p>
+									<p class="mt-1 text-gray-700">{@html item.club}</p>
 									<p class="mt-2 text-gray-600">{item.description}</p>
 								</div>
 							</div>

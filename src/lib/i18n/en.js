@@ -5,7 +5,7 @@ export const en = {
 		subtitle: 'Backend Developer & Electrical and Electronics Engineering Student',
 		quote: "Trust me, i'm an engineer !",
 		quoteAuthor: 'Igor Pachmelnik Zakuskov',
-		favoriteMusic: 'Favorite Music: Linkin Park - Numb'
+		favoriteMusic: 'Favorite Music: Between Us - Robin Schlotz'
 	},
 
 	// Social
@@ -113,7 +113,7 @@ export const en = {
 		title: 'Club Responsibilities',
 		items: [
 			{
-				period: 'April 2025 - Present',
+				period: 'April 2025 - June 2025',
 				role: 'Board Member',
 				club: 'KTUCEC (Computer Engineering Club)',
 				description:
@@ -122,7 +122,7 @@ export const en = {
 			{
 				period: 'February 2025 - Present',
 				role: 'Vice President',
-				club: 'KTU Tennis Club',
+				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTU Tennis Club</a>',
 				description:
 					'I take an active role in the planning of organisations, member communication and regular execution of club activities'
 			},
@@ -136,7 +136,7 @@ export const en = {
 			{
 				period: 'October 2024 - Present',
 				role: 'Tennis Coach',
-				club: 'KTÜ Tennis Club',
+				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTU Tennis Club</a>',
 				description:
 					'Within the tennis club, I provide tennis training for beginner and intermediate level groups for members.'
 			}

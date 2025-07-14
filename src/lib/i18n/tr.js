@@ -123,7 +123,7 @@ export const tr = {
 			{
 				period: 'Şubat 2025 - Günümüz',
 				role: 'Başkan Yardımcısı',
-				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTÜ Tenis Kulübü</a>',
+				club: 'KTÜ Tenis Kulübü',
 				description:
 					'Organizasyonların planlanması, üye iletişimi ve kulüp faaliyetlerinin düzenli yürütülmesinde aktif rol alıyorum'
 			},
@@ -137,7 +137,7 @@ export const tr = {
 			{
 				period: 'Ekim 2024 - Günümüz',
 				role: 'Tenis Antrenörü',
-				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTÜ Tenis Kulübü</a>',
+				club: 'KTÜ Tenis Kulübü',
 				description:
 					'Tenis kulübü bünyesinde, üyelere yönelik başlangıç ve orta seviye gruplarına tenis eğitimi veriyorum'
 			}

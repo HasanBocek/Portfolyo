@@ -122,7 +122,7 @@ export const en = {
 			{
 				period: 'February 2025 - Present',
 				role: 'Vice President',
-				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTU Tennis Club</a>',
+				club: 'KTU Tennis Club',
 				description:
 					'I take an active role in the planning of organisations, member communication and regular execution of club activities'
 			},
@@ -136,7 +136,7 @@ export const en = {
 			{
 				period: 'October 2024 - Present',
 				role: 'Tennis Coach',
-				club: '<a style="text-decoration: none;" href="https://ktutenis.com/">KTU Tennis Club</a>',
+				club: 'KTU Tennis Club',
 				description:
 					'Within the tennis club, I provide tennis training for beginner and intermediate level groups for members.'
 			}

@@ -2,10 +2,9 @@ export const tr = {
 	// Hero
 	hero: {
 		title: 'Hasan BÖCEK',
-		subtitle: 'Backend Geliştirici & Elektrik Elektronik Mühendisliği Öğrencisi',
+		subtitle: 'Back-End Geliştirici & Cereyan Mühendisliği Öğrencisi',
 		quote: "Trust me, i'm an engineer !",
 		quoteAuthor: 'Igor Pachmelnik Zakuskov',
-		favoriteMusic: 'Favori Müzik: Between Us - Robin Schlotz'
 	},
 
 	// Social

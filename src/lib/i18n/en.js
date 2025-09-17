@@ -105,7 +105,7 @@ export const en = {
 				period: '2024 - 2025'
 			},
 			{
-				degree: 'Industrial Engineering Bachelor's Degree',
+				degree: "Industrial Engineering Bachelor's Degree",
 				institution: 'Karadeniz Technical University',
 				period: '2025 - 2029'
 			}

@@ -101,14 +101,14 @@ export const tr = {
 		title: 'Eğitim',
 		items: [
 			{
-				degree: 'Elektrik ve Elektronik Mühendisliği Lisans',
-				institution: 'Karadeniz Teknik Üniversitesi',
-				period: '2024 - 2025'
-			},
-			{
 				degree: 'Endüstri Mühendisliği Lisans',
 				institution: 'Karadeniz Teknik Üniversitesi',
 				period: '2025 - 2029'
+			},
+			{
+				degree: 'Elektrik ve Elektronik Mühendisliği Lisans',
+				institution: 'Karadeniz Teknik Üniversitesi',
+				period: '2024 - 2025'
 			}
 		]
 	},

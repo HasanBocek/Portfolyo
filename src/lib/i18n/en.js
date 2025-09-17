@@ -100,14 +100,14 @@ export const en = {
 		title: 'Education',
 		items: [
 			{
-				degree: "Electrical and Electronics Engineering Bachelor's Degree",
-				institution: 'Karadeniz Technical University',
-				period: '2024 - 2025'
-			},
-			{
 				degree: "Industrial Engineering Bachelor's Degree",
 				institution: 'Karadeniz Technical University',
 				period: '2025 - 2029'
+			},
+			{
+				degree: "Electrical and Electronics Engineering Bachelor's Degree",
+				institution: 'Karadeniz Technical University',
+				period: '2024 - 2025'
 			}
 		]
 	},

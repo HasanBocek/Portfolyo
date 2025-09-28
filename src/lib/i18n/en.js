@@ -3,8 +3,6 @@ export const en = {
 	hero: {
 		title: 'Hasan BÖCEK',
 		subtitle: 'Back-End Developer & Industrial Engineering Student',
-		quote: "Trust me, i'm an engineer !",
-		quoteAuthor: 'Igor Pachmelnik Zakuskov',
 	},
 
 	// Social

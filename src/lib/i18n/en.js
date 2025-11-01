@@ -58,38 +58,60 @@ export const en = {
 				title: 'TCMS - Tennis Club Management System',
 				description:
 					'A system for the management of the tennis club, where members can be managed, group lessons can be created and attendance can be taken',
-				tech: ['Svelte', 'Node.JS', 'MongoDB']
+				tech: ['Svelte', 'Node.JS', 'MongoDB'],
+				demo: "https://tennis-club-management-system-demo.visionof.me",
+				status: {
+					label: 'Demo',
+					color: 'green'
+				}
 			},
 			{
 				title: 'ToonApp - IOS Mentorship Application',
 				description:
 					'A club-based project developed within the scope of the IOS mentoring programme',
-				tech: ['SupaBase', 'Swift UI', 'Deno.js', 'SQL']
+				tech: ['SupaBase', 'Swift UI', 'Deno.js', 'SQL'],
+				status: {
+					label: 'On Hold',
+					color: 'yellow'
+				}
 			},
 			{
 				title: 'FR - Recipe Sharing Application',
 				description: 'A platform where users can add, search, evaluate and share recipes',
 				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
-				github: 'https://github.com/HasanBocek/Food-Recipe-Backend'
+				github: 'https://github.com/HasanBocek/Food-Recipe-Backend',
+				status: {
+					label: 'Completed',
+					color: 'blue'
+				}
 			},
 			{
 				title: 'HPMS -Hotel Property Management System',
 				description:
 					'A comprehensive hotel business solution including reservation management, room distribution, customer records, billing and staff operations',
 				tech: ['Node.js', 'Express', 'MongoDB'],
-				github: 'https://github.com/HasanBocek/Hotel-Property-Management-System'
+				github: 'https://github.com/HasanBocek/Hotel-Property-Management-System',
+				status: {
+					label: 'Completed',
+					color: 'blue'
+				}
 			},
 			{
 				title: 'SPT - Student Process Tracking',
 				description:
 					'A system that enables educational institutions to track student progress and performance and provides analytics for instructors and administrators',
 				tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap'],
-				github: 'https://github.com/HasanBocek/spt'
+				github: 'https://github.com/HasanBocek/spt',
+				status: {
+					label: 'Completed',
+					color: 'blue'
+				}
 			}
 		],
 		buttons: {
 			github: 'GitHub',
-			live: 'Live'
+			live: 'Live',
+			demo: "Demo"
 		}
 	},
 
@@ -101,11 +123,6 @@ export const en = {
 				degree: "Industrial Engineering Bachelor's Degree",
 				institution: 'Karadeniz Technical University',
 				period: '2025 - 2029'
-			},
-			{
-				degree: "Electrical and Electronics Engineering Bachelor's Degree",
-				institution: 'Karadeniz Technical University',
-				period: '2024 - 2025'
 			}
 		]
 	},
@@ -115,13 +132,6 @@ export const en = {
 		title: 'Club Responsibilities',
 		items: [
 			{
-				period: 'April 2025 - June 2025',
-				role: 'Board Member',
-				club: 'KTUCEC (Computer Engineering Club)',
-				description:
-					'I take an active role in the planning of organisations, member communication and regular execution of club activities'
-			},
-			{
 				period: 'February 2025 - Present',
 				role: 'Vice President',
 				club: 'KTU Tennis Club',
@@ -129,18 +139,25 @@ export const en = {
 					'I take an active role in the planning of organisations, member communication and regular execution of club activities'
 			},
 			{
-				period: 'November 2024 - Present',
-				role: 'Web Committee Director',
-				club: 'KTUCEC (Computer Engineering Club)',
-				description:
-					"I am involved in the management of the club's digital infrastructure and take an active role in the planning and development of web-based projects"
-			},
-			{
 				period: 'October 2024 - Present',
 				role: 'Tennis Coach',
 				club: 'KTU Tennis Club',
 				description:
 					'Within the tennis club, I provide tennis training for beginner and intermediate level groups for members.'
+			},
+			{
+				period: 'April 2025 - June 2025',
+				role: 'Board Member',
+				club: 'KTUCEC (Computer Engineering Club)',
+				description:
+					'I take an active role in the planning of organisations, member communication and regular execution of club activities'
+			},
+			{
+				period: 'November 2024 - June 2025',
+				role: 'Web Committee Director',
+				club: 'KTUCEC (Computer Engineering Club)',
+				description:
+					"I am involved in the management of the club's digital infrastructure and take an active role in the planning and development of web-based projects"
 			}
 		]
 	},

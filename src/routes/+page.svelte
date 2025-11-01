@@ -25,12 +25,7 @@
 				<p class="mb-6 text-gray-600">
 					{$t('hero.subtitle')}
 				</p>
-				<blockquote class="mb-6 border-l-4 border-gray-300 pl-4 text-gray-500">
-					<p style="font-family: 'Comic Neue'; font-style: italic; display: block;">
-						“{$t('hero.quote')}“
-					</p>
-					<footer class="mb-2 text-xs text-gray-400">– {$t('hero.quoteAuthor')}</footer>
-				</blockquote>
+			
 				<div class="flex space-x-4">
 					{#each $t('socialLinks') as social}
 						<a
@@ -64,7 +59,14 @@
 						{#each $t('projects.items') as project}
 							<div class="flex h-full flex-col rounded-lg border border-gray-100 bg-white p-4">
 								<div class="flex-grow">
-									<h3 class="mb-2 font-semibold text-gray-800">{project.title}</h3>
+									<div class="mb-2 flex items-start justify-between gap-2">
+										<h3 class="font-semibold text-gray-800">{project.title}</h3>
+										{#if project.status}
+											<span class="rounded bg-{project.status.color}-100 px-2 py-1 text-xs font-medium text-{project.status.color}-700 whitespace-nowrap">
+												{project.status.label}
+											</span>
+										{/if}
+									</div>
 									<p class="mb-3 text-sm text-gray-600">{project.description}</p>
 									<div class="mb-4 flex flex-wrap gap-2">
 										{#each project.tech as tech}
@@ -94,6 +96,17 @@
 										>
 											<i class="bx bx-link-external mr-1 text-sm"></i>
 											{$t('projects.buttons.live')}
+										</a>
+									{/if}
+									{#if project.demo}
+										<a
+											href={project.demo}
+											target="_blank"
+											rel="noopener noreferrer"
+											class="flex items-center justify-center rounded border border-gray-300 px-3 py-1 text-sm text-gray-700 transition-colors hover:bg-gray-50"
+										>
+											<i class="bx bx-link-external mr-1 text-sm"></i>
+											{$t('projects.buttons.demo')}
 										</a>
 									{/if}
 								</div>

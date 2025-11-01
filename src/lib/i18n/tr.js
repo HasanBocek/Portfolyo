@@ -58,39 +58,61 @@ export const tr = {
 				title: 'TCMS - Tenis Kulüp Yönetim Sistemi',
 				description:
 					'Tenis kulübünün yönetimi için, üyelerin yönetilebildiği, grup derslerinin oluşturulabildiği ve yoklamaların alınabilindiği bir sistem',
-				tech: ['Svelte', 'Node.JS', 'MongoDB']
+				tech: ['Svelte', 'Node.JS', 'MongoDB'],
+				demo: "https://tennis-club-management-system-demo.visionof.me",
+				status: {
+					label: 'Demo Yayında',
+					color: 'green'
+				}
 			},
 			{
 				title: 'ToonApp - IOS Mentorluk Uygulaması',
 				description:
 					'Kulüp bazında yapılan, IOS mentörlük programı kapsamında geliştirilen bir proje',
-				tech: ['SupaBase', 'Swift UI', 'Deno.js', 'SQL']
+				tech: ['SupaBase', 'Swift UI', 'Deno.js', 'SQL'],
+				status: {
+					label: 'Askıda',
+					color: 'yellow'
+				}
 			},
 			{
 				title: 'FR - Yemek Tarifi Paylaşma Uygulaması',
 				description:
 					'Kullanıcıların tarif ekleyebildiği, arayabildiği, değerlendirebildiği ve paylaşabildiği bir platform',
 				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
-				github: 'https://github.com/HasanBocek/Food-Recipe-Backend'
+				github: 'https://github.com/HasanBocek/Food-Recipe-Backend',
+				status: {
+					label: 'Bitirildi',
+					color: 'blue'
+				}
 			},
 			{
 				title: 'HPMS -Otel Yönetim Sistemi',
 				description:
 					'Rezervasyon yönetimi, oda dağılımı, müşteri kayıtları, faturalandırma ve personel operasyonlarını içeren kapsamlı bir otel işletme çözümü',
 				tech: ['Node.js', 'Express', 'MongoDB'],
-				github: 'https://github.com/HasanBocek/Hotel-Property-Management-System'
+				github: 'https://github.com/HasanBocek/Hotel-Property-Management-System',
+				status: {
+					label: 'Bitirildi',
+					color: 'blue'
+				}
 			},
 			{
 				title: 'SPT - Öğrenci Süreç Takip Uygulaması',
 				description:
 					'Eğitim kurumları için öğrenci ilerlemesi ve performansının takibini sağlayan, eğitmenler ve yöneticiler için analiz özellikleri sunan bir sistem',
 				tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap'],
-				github: 'https://github.com/HasanBocek/spt'
+				github: 'https://github.com/HasanBocek/spt',
+				status: {
+					label: 'Bitirildi',
+					color: 'blue'
+				}
 			}
 		],
 		buttons: {
 			github: 'GitHub',
-			live: 'Canlı'
+			live: 'Canlı',
+			demo: "Demo"
 		}
 	},
 
@@ -102,11 +124,6 @@ export const tr = {
 				degree: 'Endüstri Mühendisliği Lisans',
 				institution: 'Karadeniz Teknik Üniversitesi',
 				period: '2025 - 2029'
-			},
-			{
-				degree: 'Elektrik ve Elektronik Mühendisliği Lisans',
-				institution: 'Karadeniz Teknik Üniversitesi',
-				period: '2024 - 2025'
 			}
 		]
 	},
@@ -116,13 +133,6 @@ export const tr = {
 		title: 'Kulüp Sorumlulukları',
 		items: [
 			{
-				period: 'Nisan 2025 - Haziran 2025',
-				role: 'Yönetim Kurulu Üyesi',
-				club: 'KTÜCEC (Bilgisayar Mühendisliği Kulübü)',
-				description:
-					'Organizasyonların planlanması, üye iletişimi ve kulüp faaliyetlerinin düzenli yürütülmesinde aktif rol alıyorum'
-			},
-			{
 				period: 'Şubat 2025 - Günümüz',
 				role: 'Başkan Yardımcısı',
 				club: 'KTÜ Tenis Kulübü',
@@ -130,18 +140,26 @@ export const tr = {
 					'Organizasyonların planlanması, üye iletişimi ve kulüp faaliyetlerinin düzenli yürütülmesinde aktif rol alıyorum'
 			},
 			{
-				period: 'Kasım 2024 - Günümüz',
-				role: 'Web Komitesi Direktörü',
-				club: 'KTÜCEC (Bilgisayar Mühendisliği Kulübü)',
-				description:
-					'Kulübün dijital altyapısının yönetiminde yer alıyor ve web tabanlı projelerin planlanması ile geliştirilmesinde aktif rol alıyorum'
-			},
-			{
 				period: 'Ekim 2024 - Günümüz',
 				role: 'Tenis Antrenörü',
 				club: 'KTÜ Tenis Kulübü',
 				description:
 					'Tenis kulübü bünyesinde, üyelere yönelik başlangıç ve orta seviye gruplarına tenis eğitimi veriyorum'
+			},
+			{
+				period: 'Nisan 2025 - Haziran 2025',
+				role: 'Yönetim Kurulu Üyesi',
+				club: 'KTÜCEC (Bilgisayar Mühendisliği Kulübü)',
+				description:
+					'Organizasyonların planlanması, üye iletişimi ve kulüp faaliyetlerinin düzenli yürütülmesinde aktif rol alıyorum'
+			},
+
+			{
+				period: 'Kasım 2024 - Haziran 2025',
+				role: 'Web Komitesi Direktörü',
+				club: 'KTÜCEC (Bilgisayar Mühendisliği Kulübü)',
+				description:
+					'Kulübün dijital altyapısının yönetiminde yer alıyor ve web tabanlı projelerin planlanması ile geliştirilmesinde aktif rol alıyorum'
 			}
 		]
 	},

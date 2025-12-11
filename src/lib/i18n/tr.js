@@ -59,7 +59,7 @@ export const tr = {
 				description:
 					'Tenis kulübünün yönetimi için, üyelerin yönetilebildiği, grup derslerinin oluşturulabildiği ve yoklamaların alınabilindiği bir sistem',
 				tech: ['Svelte', 'Node.JS', 'MongoDB'],
-				demo: "https://tcms-demo.visionof.me",
+				demo: "https://tcms-demo.bocek.app",
 				status: {
 					label: 'Demo Yayında',
 					color: 'green'

@@ -59,7 +59,7 @@ export const en = {
 				description:
 					'A system for the management of the tennis club, where members can be managed, group lessons can be created and attendance can be taken',
 				tech: ['Svelte', 'Node.JS', 'MongoDB'],
-				demo: "https://tcms-demo.visionof.me",
+				demo: "https://tcms-demo.bocek.app",
 				status: {
 					label: 'Demo',
 					color: 'green'

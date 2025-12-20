@@ -57,7 +57,7 @@
 				<div class="overflow-x-auto">
 					<div class="grid grid-cols-1 gap-4 md:grid-cols-3">
 						{#each $t('projects.items') as project}
-							<div class="flex h-full flex-col rounded-lg border border-gray-100 bg-white p-4">
+							<div class="flex h-full flex-col rounded-lg border border-gray-200 bg-white p-4">
 								<div class="flex-grow">
 									<div class="mb-2 flex items-start justify-between gap-2">
 										<h3 class="font-semibold text-gray-800">{project.title}</h3>
@@ -121,7 +121,7 @@
 				<h2 class="mb-6 text-center text-2xl font-bold">{$t('education.title')}</h2>
 				<div class="space-y-4">
 					{#each $t('education.items') as edu}
-						<div class="rounded-lg border border-gray-100 bg-white p-6">
+						<div class="rounded-lg border border-gray-200 bg-white p-6">
 							<div class="mb-2 flex flex-col md:flex-row md:items-start md:justify-between">
 								<h3 class="font-semibold text-gray-800">{edu.degree}</h3>
 								<span class="mt-1 text-sm text-gray-500 md:mt-0">{edu.period}</span>
@@ -151,7 +151,7 @@
 								<div class="w-1/2 pr-12 text-right {i % 2 === 0 ? 'block' : 'invisible'}">
 									{#if i % 2 === 0}
 										<span
-											class="mb-2 inline-block rounded bg-gray-100 px-3 py-1 text-xs text-gray-700"
+											class="mb-2 inline-block rounded bg-gray-200 px-3 py-1 text-xs text-gray-700"
 											>{item.period}</span
 										>
 										<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>
@@ -163,7 +163,7 @@
 								<div class="w-1/2 pl-12 {i % 2 !== 0 ? 'block' : 'invisible'}">
 									{#if i % 2 !== 0}
 										<span
-											class="mb-2 inline-block rounded bg-gray-100 px-3 py-1 text-xs text-gray-700"
+											class="mb-2 inline-block rounded bg-gray-200 px-3 py-1 text-xs text-gray-700"
 											>{item.period}</span
 										>
 										<h3 class="text-lg font-semibold text-gray-800">{item.role}</h3>

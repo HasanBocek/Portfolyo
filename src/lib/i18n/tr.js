@@ -167,5 +167,13 @@ export const tr = {
 	// Contact
 	contact: {
 		title: 'İletişime Geç'
+	},
+
+	// WakaTime
+	wakatime: {
+		loading: 'Yükleniyor...',
+		error: 'Kodlama süresi yüklenemedi',
+		prefix: 'Kodlama Süresi:',
+		since: '21 Aralık 2025\'ten beri'
 	}
 };

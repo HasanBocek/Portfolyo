@@ -165,5 +165,13 @@ export const en = {
 	// Contact
 	contact: {
 		title: 'Contact Me'
+	},
+
+	// WakaTime
+	wakatime: {
+		loading: 'Loading...',
+		error: 'Could not load coding time',
+		prefix: 'Coding Time:',
+		since: 'since Dec 21, 2025'
 	}
 };

@@ -3,6 +3,7 @@ export const en = {
 	hero: {
 		title: 'Hasan BÖCEK',
 		subtitle: 'Back-End Developer & Industrial Engineering Student',
+		cv: 'Download CV'
 	},
 
 	// Social
@@ -50,6 +51,34 @@ export const en = {
 		]
 	},
 
+	// Experience
+	experience: {
+		title: 'Experience',
+		items: [
+			{
+				role: 'Full Stack Developer',
+				company: 'Eupholias Developers',
+				companyUrl: 'https://linkedin.com/company/eupholias',
+				period: 'December 2025 - Present',
+				description: ''
+			},
+			{
+				role: 'Frontend Developer',
+				company: 'Freelance',
+				companyUrl: '',
+				period: 'Since 2025',
+				description: ''
+			},
+			{
+				role: 'Backend Developer',
+				company: 'Freelance',
+				companyUrl: '',
+				period: 'Since 2018',
+				description: ''
+			}
+		]
+	},
+
 	// Projects
 	projects: {
 		title: 'Projects',
@@ -86,7 +115,7 @@ export const en = {
 				}
 			},
 			{
-				title: 'HPMS -Hotel Property Management System',
+				title: 'HPMS - Hotel Property Management System',
 				description:
 					'A comprehensive hotel business solution including reservation management, room distribution, customer records, billing and staff operations',
 				tech: ['Node.js', 'Express', 'MongoDB'],

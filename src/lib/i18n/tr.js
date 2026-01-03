@@ -2,7 +2,8 @@ export const tr = {
 	// Hero
 	hero: {
 		title: 'Hasan BÖCEK',
-		subtitle: 'Back-End Geliştirici & Endüstri Mühendisliği Öğrencisi'
+		subtitle: 'Back-End Geliştirici & Endüstri Mühendisliği Öğrencisi',
+		cv: 'CV İndir'
 	},
 
 	// Social
@@ -50,6 +51,34 @@ export const tr = {
 		]
 	},
 
+	// Experience
+	experience: {
+		title: 'Deneyim',
+		items: [
+			{
+				role: 'Full Stack Developer',
+				company: 'Eupholias Developers',
+				companyUrl: 'https://linkedin.com/company/eupholias',
+				period: 'Aralık 2025 - Günümüz',
+				description: ''
+			},
+			{
+				role: 'Frontend Developer',
+				company: 'Freelance',
+				companyUrl: '',
+				period: "2025'den beri",
+				description: ''
+			},
+			{
+				role: 'Backend Developer',
+				company: 'Freelance',
+				companyUrl: '',
+				period: "2018'den beri",
+				description: ''
+			}
+		]
+	},
+
 	// Projects
 	projects: {
 		title: 'Projeler',
@@ -87,7 +116,7 @@ export const tr = {
 				}
 			},
 			{
-				title: 'HPMS -Otel Yönetim Sistemi',
+				title: 'HPMS - Otel Yönetim Sistemi',
 				description:
 					'Rezervasyon yönetimi, oda dağılımı, müşteri kayıtları, faturalandırma ve personel operasyonlarını içeren kapsamlı bir otel işletme çözümü',
 				tech: ['Node.js', 'Express', 'MongoDB'],

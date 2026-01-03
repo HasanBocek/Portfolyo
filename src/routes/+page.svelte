@@ -39,6 +39,16 @@
 						</a>
 					{/each}
 				</div>
+
+				<a
+					href="/resume.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="mt-6 inline-flex items-center gap-2 rounded-lg border border-gray-300 px-4 py-2 text-sm text-gray-700 transition-colors hover:bg-gray-50"
+				>
+					<i class="bx bx-file text-lg"></i>
+					{$t('hero.cv')}
+				</a>
 			</div>
 
 			<!-- Skills -->
@@ -47,6 +57,25 @@
 				<div class="flex flex-wrap justify-center gap-2">
 					{#each $t('skills.items') as skill}
 						<span class="rounded bg-gray-100 px-3 py-1.5 text-sm text-gray-700">{skill}</span>
+					{/each}
+				</div>
+			</div>
+
+			<!-- Experience -->
+			<div class="mb-12" use:scrollAnimation>
+				<h2 class="mb-6 text-center text-2xl font-bold">{$t('experience.title')}</h2>
+				<div class="space-y-4">
+					{#each $t('experience.items') as exp}
+						<div class="rounded-lg border border-gray-200 bg-white p-6">
+							<div class="mb-2 flex flex-col md:flex-row md:items-start md:justify-between">
+								<h3 class="font-semibold text-gray-800">{exp.role}</h3>
+								<span class="mt-1 text-sm text-gray-500 md:mt-0">{exp.period}</span>
+							</div>
+							<a href={exp.companyUrl} target="_blank" rel="noopener noreferrer" class="text-sm text-gray-700 hover:text-gray-900 hover:underline">{exp.company}</a>
+							{#if exp.description}
+								<p class="mt-2 text-sm text-gray-600">{exp.description}</p>
+							{/if}
+						</div>
 					{/each}
 				</div>
 			</div>

@@ -84,13 +84,25 @@ export const en = {
 		title: 'Projects',
 		items: [
 			{
+				title: 'MenuVix - Restaurant POS Software',
+				description:
+					'A system is designed to streamline the entire dining workflow, creating a seamless link between the front-of-house and the kitchen. It covers every aspect of restaurant operations, ensuring efficiency from order taking to final payment.',
+				tech: ['NestJS', 'Next.js'],
+				live: "https://menuvix.com",
+				status: {
+					label: 'Live',
+					color: 'green'
+				}
+			},
+			{
 				title: 'TCMS - Tennis Club Management System',
 				description:
 					'A system for the management of the tennis club, where members can be managed, group lessons can be created and attendance can be taken',
 				tech: ['Svelte', 'Node.JS', 'MongoDB'],
 				demo: "https://tcms-demo.bocek.app",
+				live: "https://ktutenis.com",
 				status: {
-					label: 'Demo',
+					label: 'Live',
 					color: 'green'
 				}
 			},

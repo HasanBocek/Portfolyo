@@ -84,6 +84,17 @@ export const tr = {
 		title: 'Projeler',
 		items: [
 			{
+    			title: 'MenuVix - Restoran POS Yazılımı',
+    			description: 
+					'Tüm yemek iş akışını akıcı hale getirmek için tasarlanmış, sipariş alımından son ödemeye kadar restoran operasyonlarının her aşamasını kapsayan bir sistem ',
+    			tech: ['NestJS', 'Next.js'],
+    			live: "https://menuvix.com",
+    			status: {
+      				label: 'Live',
+       				color: 'green'
+    			}
+			},
+			{
 				title: 'TCMS - Tenis Kulüp Yönetim Sistemi',
 				description:
 					'Tenis kulübünün yönetimi için, üyelerin yönetilebildiği, grup derslerinin oluşturulabildiği ve yoklamaların alınabilindiği bir sistem',

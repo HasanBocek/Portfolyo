@@ -1,33 +1,39 @@
-FROM node:22-alpine AS build
+# Build stage
+FROM node:20-slim AS builder
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
 RUN npm ci
 
+# Copy source files
 COPY . .
+
+# Build the application
 RUN npm run build
 
-FROM node:22-alpine
+# Remove development dependencies
+RUN npm prune --production
 
-RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+# Production stage
+FROM node:20-slim AS runner
 
 WORKDIR /app
 
-COPY --from=build /app/build ./build
-COPY --from=build /app/package.json ./
-COPY --from=build /app/package-lock.json ./
+# Copy built application and production dependencies
+COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/build ./build
 
-RUN chown -R appuser:appgroup /app
-
-USER appuser
-
+# Set environment variables
 ENV NODE_ENV=production
 ENV PORT=3000
 
+# Expose the port
 EXPOSE 3000
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-    CMD wget --no-verbose --tries=1 --spider http://localhost:3000/ || exit 1
-
+# Start the application
 CMD ["node", "build"]

@@ -12,7 +12,8 @@ RUN npm ci
 # Copy source files
 COPY . .
 
-# Build the application
+# Build the application (limit Node heap to avoid OOM on small servers)
+ENV NODE_OPTIONS="--max-old-space-size=512"
 RUN npm run build
 
 # Remove development dependencies

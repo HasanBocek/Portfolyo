@@ -38,6 +38,6 @@
 	{:else if error}
 		<span class="text-sm">{$t('wakatime.error')}</span>
 	{:else}
-		<span class="text-sm">{$t('wakatime.prefix')} {translateTime(codingTime, $language)} | {$t('wakatime.since')}</span>
+		<span class="text-sm">{$t('wakatime.prefix')} {translateTime(codingTime, $language)}</span>
 	{/if}
 </div>

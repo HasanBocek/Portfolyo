@@ -162,8 +162,8 @@ export const tr = {
 				role: 'Full Stack Developer',
 				company: 'Eupholias Developers',
 				companyUrl: 'https://eupholias.com',
-				period: 'Ara 2025 - Devam Ediyor',
-				current: true
+				period: 'Ara 2025 - Nis 2026',
+				current: false
 			},
 			{
 				role: 'Frontend Developer',

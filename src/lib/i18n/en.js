@@ -244,8 +244,8 @@ export const en = {
 				role: 'Full Stack Developer',
 				company: 'Eupholias Developers',
 				companyUrl: 'https://eupholias.com',
-				period: 'Dec 2025 - Present',
-				current: true
+				period: 'Dec 2025 - Apr 2026',
+				current: false
 			},
 			{
 				role: 'Frontend Developer',

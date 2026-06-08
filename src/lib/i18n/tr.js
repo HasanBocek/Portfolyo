@@ -159,12 +159,27 @@ export const tr = {
 		active: 'Aktif',
 		items: [
 			{
-				role: 'Full Stack Developer',
-				company: 'Eupholias Developers',
-				companyUrl: 'https://eupholias.com',
-				period: 'Ara 2025 - Nis 2026',
-				current: false
+				role: 'Frontend Developer',
+				company: 'Freelance',
+				companyUrl: '',
+				period: '2025 - Devam Ediyor',
+				current: true
 			},
+			{
+				role: 'Backend Developer',
+				company: 'Freelance',
+				companyUrl: '',
+				period: '2018 - Devam Ediyor',
+				current: true
+			}
+		]
+	},
+
+	// Education
+	experience: {
+		title: 'Deneyim',
+		active: 'Aktif',
+		items: [
 			{
 				role: 'Frontend Developer',
 				company: 'Freelance',

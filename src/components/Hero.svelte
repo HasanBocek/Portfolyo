@@ -67,7 +67,7 @@
 				{$t('hero.cv')}
 			</a>
 			<a
-				href="mailto:mail@hasanbocek.com"
+				href="mailto:{$t('contact.email')}"
 				class="inline-flex items-center gap-2 rounded-lg border border-border px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-secondary"
 			>
 				<svg class="h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">

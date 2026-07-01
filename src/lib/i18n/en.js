@@ -10,10 +10,10 @@ export const en = {
 	hero: {
 		greeting: "Hi, I'm",
 		name: 'Hasan BÖCEK',
-		role: 'Full Stack Developer',
-		description: 'I build scalable and maintainable full-stack systems.',
+		role: 'Freelance Full Stack Developer',
+		description: 'I build web apps and admin panels for clients. Whether you have a clear brief or just an idea — drop me a line and we can talk it through.',
 		cv: 'Download CV',
-		contact: 'Contact Me'
+		contact: 'Let\'s Talk'
 	},
 
 	// Social
@@ -34,7 +34,7 @@ export const en = {
 	// Projects
 	projects: {
 		title: 'Projects',
-		subtitle: 'Some projects I have built',
+		subtitle: 'Real client work. Reach out if you need something similar.',
 		items: [
 			{
 				slug: 'menuvix',
@@ -206,8 +206,8 @@ export const en = {
 
 	// Contact
 	contact: {
-		title: 'Get in Touch',
-		description: 'Have a project idea? Let\'s work together.',
+		title: 'Get in touch about your project',
+		description: 'A short email is enough — tell me what you need and your timeline if you have one. I usually reply within a few hours.',
 		email: 'contact@hasanbocek.com'
 	},
 

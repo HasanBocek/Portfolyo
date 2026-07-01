@@ -7,8 +7,8 @@
 </script>
 
 <svelte:head>
-	<title>Hasan BÖCEK | Backend Developer</title>
-	<meta name="description" content="Hasan BÖCEK - Backend Developer. Node.js, Express, MongoDB ile ölçeklenebilir sistemler geliştiriyorum." />
+	<title>Hasan BÖCEK | Freelance Full Stack Developer</title>
+	<meta name="description" content="Freelance full stack developer. Web uygulamaları ve yönetim panelleri geliştiriyorum. Projeniz için yazın — birlikte konuşalım." />
 </svelte:head>
 
 <Hero />

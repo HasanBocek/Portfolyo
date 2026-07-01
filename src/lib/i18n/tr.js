@@ -10,10 +10,10 @@ export const tr = {
 	hero: {
 		greeting: 'Merhaba, ben',
 		name: 'Hasan BÖCEK',
-		role: 'Full Stack Developer',
-		description: 'Ölçeklenebilir ve sürdürülebilir  sistemler geliştiriyorum.',
+		role: 'Freelance Full Stack Developer',
+		description: 'Web uygulamaları ve yönetim panelleri geliştiriyorum. Yeni bir fikriniz, devam eden bir projeniz veya sadece "böyle bir şey lazım" demeniz yeterli — yazın, birlikte bakalım.',
 		cv: 'CV İndir',
-		contact: 'İletişime Geç'
+		contact: 'Proje Konuşalım'
 	},
 
 	// Social
@@ -34,7 +34,7 @@ export const tr = {
 	// Projects
 	projects: {
 		title: 'Projeler',
-		subtitle: 'Geliştirdiğim bazı projeler',
+		subtitle: 'Gerçek işlerden örnekler. Benzer bir ihtiyacınız varsa rahatça ulaşabilirsiniz.',
 		items: [
 			{
 				slug: 'menuvix',
@@ -228,8 +228,8 @@ export const tr = {
 
 	// Contact
 	contact: {
-		title: 'İletişime Geç',
-		description: 'Bir proje fikriniz mi var? Birlikte çalışalım.',
+		title: 'Projeniz için yazın',
+		description: 'Kısa bir mail yeterli — ne istediğinizi, varsa zaman çizelgenizi yazın, gerisini birlikte netleştiririz. Genelde birkaç saat içinde dönerim.',
 		email: 'contact@hasanbocek.com'
 	},
 

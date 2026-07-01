@@ -39,8 +39,8 @@ export const tr = {
 			{
 				slug: 'menuvix',
 				title: 'MenuVix - Restoran POS Sistemi',
-				description: 'Sipariş alımından son ödemeye kadar restoran operasyonlarının her aşamasını kapsayan kapsamlı bir POS sistemi.',
-				detailDescription: 'MenuVix, restoran operasyonlarının her aşamasını kolaylaştırmak için tasarlanmış tam özellikli bir restoran satış noktası sistemidir. Güçlü bir backend API için NestJS ve modern, duyarlı bir frontend için Next.js ile geliştirilmiştir. Sistem sipariş yönetimi, masa takibi, masaüstü mutfak ekranı entegrasyonu, ödeme işleme ve gerçek zamanlı analitik gibi özellikler sunar. Personel yönetimi için rol tabanlı erişim kontrolü, çoklu dil desteği ve günlük raporlama için temiz bir kontrol paneli bulunmaktadır.',
+				description: 'Siparişten mutfağa, kasadan raporlamaya kadar restoran operasyonlarını uçtan uca yöneten POS sistemi.',
+				detailDescription: 'MenuVix; sipariş, masa, mutfak ekranı, ödeme ve raporlama süreçlerini tek platformda birleştiren tam özellikli bir restoran POS çözümüdür. NestJS tabanlı backend ve Next.js ile geliştirilmiş modern arayüzü sayesinde günlük operasyonları hızlandırır. Rol tabanlı yetkilendirme, çoklu dil desteği ve detaylı satış raporları ile işletmelerin ihtiyaç duyduğu tüm temel modülleri kapsar.',
 				tech: ['NestJS', 'Next.js'],
 				sections: [
 					{
@@ -94,58 +94,23 @@ export const tr = {
 			{
 				slug: 'on-muhasebe-erp',
 				title: 'Ön Muhasebe ERP',
-				description: 'Cari hesap, stok, kasa, fatura ve raporlama modüllerini kapsayan modern ön muhasebe ERP sistemi.',
-				detailDescription: 'Windows masaüstü deneyimini tarayıcıya taşıyan modern bir ön muhasebe ERP uygulamasıdır. Cari hesap yönetimi, stok ve depo takibi, kasa ve banka işlemleri, fatura oluşturma, çek/senet yönetimi, hızlı tahsilat ve kapsamlı raporlama modüllerini tek bir arayüzde sunar. Dashboard üzerinden tüm modüllere hızlı erişim sağlanır; arama, filtreleme ve detaylı hareket takibi ile günlük muhasebe operasyonları kolaylaştırılır.',
+				description: 'Cari, stok, kasa, fatura ve raporlama modüllerini tek arayüzde sunan tarayıcı tabanlı ön muhasebe sistemi.',
+				detailDescription: 'Windows masaüstü deneyimini tarayıcıya taşıyan modern bir ön muhasebe ERP uygulaması. Cari hesap yönetimi, stok ve depo takibi, kasa ile banka işlemleri, fatura oluşturma, çek/senet takibi, hızlı tahsilat ve raporlama modüllerini bir arada sunar. Dashboard üzerinden tüm modüllere hızlı erişim; arama, filtreleme ve hareket geçmişi ile günlük muhasebe işlemlerini sadeleştirir.',
 				tech: ['Next.js', 'TypeScript'],
 				demo: 'https://erp.demo.bocek.app',
 				embedUrl: 'https://erp.demo.bocek.app',
 				status: { label: 'Demo', color: 'yellow' }
 			},
 			{
-				slug: 'nodx',
-				title: 'Nodx',
-				description: 'Nodx modern teknoloji ile kurumsal düzeyde web çözümleri sunuyor.',
-				detailDescription: 'Nodx, en güncel teknolojileri kullanarak kurumsal düzeyde web çözümleri sunar. Üstün performans için Bun çalışma zamanı, hafif ama güçlü bir API çerçevesi olarak Elysia ve sunucu tarafında render edilen frontendler için Next.js ile geliştirilmiştir. Platform yüksek kullanılabilirlik, otomatik ölçeklendirme ve geliştirici deneyimine odaklanmaktadır. Temel özellikler arasında otomatik dağıtım boru hatları, entegre izleme panelleri ve kapsamlı API belgeleri bulunmaktadır.',
-				tech: ['Bun', 'Elysia', 'Next.js'],
-				live: 'https://nodx.org',
-				status: { label: 'Live', color: 'green' }
-			},
-			{
-				slug: 'tennis-club-management',
-				title: 'Tenis Kulübü Yönetim Sistemi',
-				description: 'Üye yönetimi, grup dersi oluşturma ve yoklama alma özellikleriyle tenis kulübü yönetim sistemi.',
-				detailDescription: 'Kulüp yöneticileri ve antrenörler için günlük operasyonları basitleştiren kapsamlı bir tenis kulübü yönetim platformu. Reaktif bir frontend için Svelte, backend için Node.js ve esnek veri depolama için MongoDB ile geliştirilmiştir. Sistem üye kaydı ve yönetimi, grup ve birebir ders planlama, QR kod desteği ile yoklama takibi, ödeme takibi ve otomatik bildirim sistemleri içermektedir. Antrenörler programlarını yönetebilirken üyeler sezgisel bir arayüz üzerinden seans rezervasyonu yapabilir.',
+				slug: 'ktutenis',
+				title: 'KTÜ Tenis Kulübü Yönetim Sistemi',
+				description: 'KTÜ Tenis Kulübü için üye yönetimi, ders planlama ve yoklama takibini kapsayan kulüp yönetim platformu.',
+				detailDescription: 'KTÜ Tenis Kulübü\'nün günlük operasyonlarını dijitalleştiren kapsamlı bir yönetim platformu. Svelte tabanlı arayüz, Node.js backend ve MongoDB ile geliştirilmiştir. Üye kaydı ve yönetimi, grup ve özel ders planlama, QR kodlu yoklama, ödeme takibi ve otomatik bildirimler içerir. Yöneticiler ve antrenörler programlarını kolayca yönetirken üyeler sezgisel arayüzden ders rezervasyonu yapabilir.',
 				tech: ['Svelte', 'Node.js', 'MongoDB'],
-				demo: 'https://tcms-demo.bocek.app',
+				demo: 'https://tennis.demo.bocek.app',
+				embedUrl: 'https://tennis.demo.bocek.app',
 				live: 'https://ktutenis.com',
 				status: { label: 'Canlı', color: 'green' }
-			},
-			{
-				slug: 'food-recipe-platform',
-				title: 'Yemek Tarifi Paylaşım Platformu',
-				description: 'Kullanıcıların tarif ekleyip arayabildiği, değerlendirip paylaşabildiği bir platform.',
-				detailDescription: 'Yemek meraklılarının favori tariflerini keşfedebileceği, oluşturabileceği ve paylaşabileceği sosyal bir tarif paylaşım platformu. Backend API için Node.js ve Express, esnek tarif veri depolaması için MongoDB ve hızlı, SEO dostu bir frontend için Next.js ile geliştirilmiştir. Gelişmiş filtreli tarif arama, malzeme bazlı öneriler, kullanıcı değerlendirmeleri ve yorumlar, tarif koleksiyonları ve sosyal paylaşım özellikleri bulunmaktadır. Platform görsel yükleme, besin değeri hesaplama ve adım adım pişirme talimatlarını desteklemektedir.',
-				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
-				github: 'https://github.com/HasanBocek/Food-Recipe-Backend',
-				status: { label: 'Tamamlandı', color: 'blue' }
-			},
-			{
-				slug: 'hotel-management',
-				title: 'Otel Yönetim Sistemi',
-				description: 'Rezervasyon, oda dağılımı, faturalandırma ve personel operasyonlarını içeren otel yönetim sistemi.',
-				detailDescription: 'Küçük ve orta ölçekli oteller ve butik konaklama tesisleri için tasarlanmış eksiksiz bir otel mülk yönetim sistemi (PMS). Sistem müsaitlik takvimleri ile rezervasyon, oda atama ve durum takibi, misafir check-in/check-out iş akışları, faturalama ve faturalandırma ile personel görev yönetimini yürütmektedir. Güvenilir backend servisleri için Node.js ve Express, esnek veri modelleme için MongoDB ile geliştirilmiştir. Doluluk oranları, gelir takibi ve misafir analitiği için raporlama panelleri içermektedir.',
-				tech: ['Node.js', 'Express', 'MongoDB'],
-				github: 'https://github.com/HasanBocek/Hotel-Property-Management-System',
-				status: { label: 'Tamamlandı', color: 'blue' }
-			},
-			{
-				slug: 'student-progress-tracker',
-				title: 'Öğrenci İlerleme Takip Sistemi',
-				description: 'Eğitim kurumları için öğrenci ilerleme takip ve performans analiz sistemi.',
-				detailDescription: 'Eğitim kurumlarının öğrenci performansını izlemesi ve iyileştirmesi için tasarlanmış analitik odaklı bir öğrenci ilerleme takip sistemi. Backend için Node.js, Express ve MongoDB, frontend için EJS şablonları ve Bootstrap ile geliştirilmiştir. Öğrenci kayıt yönetimi, görsel ilerleme grafikleri ile not takibi, yoklama izleme, trend analizi ile performans analitiği ve otomatik ilerleme raporları gibi özellikler içermektedir. Öğretmenler görev oluşturabilir, gönderileri takip edebilir ve kontrol paneli üzerinden ek desteğe ihtiyaç duyan öğrencileri belirleyebilir.',
-				tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap'],
-				github: 'https://github.com/HasanBocek/spt',
-				status: { label: 'Tamamlandı', color: 'blue' }
 			}
 		],
 		buttons: {

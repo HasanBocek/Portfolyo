@@ -39,8 +39,8 @@ export const en = {
 			{
 				slug: 'menuvix',
 				title: 'MenuVix - Restaurant POS System',
-				description: 'A comprehensive POS system covering every aspect of restaurant operations, from order taking to final payment.',
-				detailDescription: 'MenuVix is a full-featured restaurant point-of-sale system designed to streamline every aspect of restaurant operations. Built with NestJS for a robust backend API and Next.js for a modern, responsive frontend. The system handles order management, table tracking, kitchen display integration, payment processing, and real-time analytics. It features role-based access control for staff management, multi-language support, and a clean dashboard for daily reporting.',
+				description: 'End-to-end restaurant POS covering orders, kitchen display, payments, and reporting.',
+				detailDescription: 'MenuVix unifies order management, table tracking, kitchen display, payments, and analytics in a single platform. Built with NestJS and Next.js, it streamlines daily restaurant operations with role-based access, multi-language support, and detailed sales reports across operations, management, and reporting modules.',
 				tech: ['NestJS', 'Next.js'],
 				sections: [
 					{
@@ -94,142 +94,24 @@ export const en = {
 			{
 				slug: 'on-muhasebe-erp',
 				title: 'Pre-Accounting ERP',
-				description: 'A modern pre-accounting ERP system covering accounts, inventory, cash, invoicing, and reporting modules.',
-				detailDescription: 'A modern pre-accounting ERP application that brings a Windows desktop experience to the browser. It offers account management, inventory and warehouse tracking, cash and bank operations, invoice creation, check/bill management, quick collection, and comprehensive reporting modules in a single interface. The dashboard provides quick access to all modules, with search, filtering, and detailed transaction tracking to streamline daily accounting operations.',
+				description: 'Browser-based pre-accounting ERP with accounts, inventory, cash desk, invoicing, and reporting.',
+				detailDescription: 'A modern pre-accounting ERP that brings a Windows desktop experience to the browser. It combines account management, inventory and warehouse tracking, cash and bank operations, invoicing, check/bill management, quick collection, and reporting in one interface. The dashboard provides fast access to every module, with search, filtering, and transaction history to simplify daily accounting work.',
 				tech: ['Next.js', 'TypeScript'],
 				demo: 'https://erp.demo.bocek.app',
 				embedUrl: 'https://erp.demo.bocek.app',
 				status: { label: 'Demo', color: 'yellow' }
 			},
 			{
-				slug: 'nodx',
-				title: 'Nodx',
-				description: 'Nodx provides enterprise-level web solutions with modern technology.',
-				detailDescription: 'Nodx delivers enterprise-grade web solutions leveraging cutting-edge technologies. Built with Bun runtime for exceptional performance, Elysia for a lightweight yet powerful API framework, and Next.js for server-side rendered frontends. The platform focuses on high availability, automatic scaling, and developer experience. Key features include automated deployment pipelines, integrated monitoring dashboards, and comprehensive API documentation.',
-				tech: ['Bun', 'Elysia', 'Next.js'],
-				live: 'https://nodx.org',
-				status: { label: 'Live', color: 'green' }
-			},
-			{
-				slug: 'tennis-club-management',
-				title: 'Tennis Club Management System',
-				description: 'Tennis club management system with member management, group lesson creation, and attendance tracking.',
-				detailDescription: 'A comprehensive tennis club management platform that simplifies daily operations for club administrators and coaches. Built with Svelte for a reactive frontend, Node.js for the backend, and MongoDB for flexible data storage. The system includes member registration and management, group and private lesson scheduling, attendance tracking with QR code support, payment tracking, and automated notification systems. Coaches can manage their schedules while members can book sessions through an intuitive interface.',
+				slug: 'ktutenis',
+				title: 'KTU Tennis Club Management System',
+				description: 'Club management platform for KTU Tennis Club — member management, lesson scheduling, and attendance tracking.',
+				detailDescription: 'A comprehensive platform digitizing daily operations for KTU Tennis Club. Built with Svelte, Node.js, and MongoDB, it covers member registration, group and private lesson scheduling, QR-based attendance, payment tracking, and automated notifications. Administrators and coaches manage schedules while members book sessions through an intuitive interface.',
 				tech: ['Svelte', 'Node.js', 'MongoDB'],
-				sections: [
-					{
-						name: 'Management',
-						pages: [
-							{ label: 'Dashboard', src: 'https://picsum.photos/seed/tennis-panel/800/500' },
-							{ label: 'Members', src: 'https://picsum.photos/seed/tennis-members/800/500' },
-							{ label: 'Payments', src: 'https://picsum.photos/seed/tennis-payments/800/500' }
-						]
-					},
-					{
-						name: 'Operations',
-						pages: [
-							{ label: 'Schedule', src: 'https://picsum.photos/seed/tennis-schedule/800/500' },
-							{ label: 'Attendance', src: 'https://picsum.photos/seed/tennis-attendance/800/500' }
-						]
-					},
-					{
-						name: 'Public',
-						pages: [
-							{ label: 'Home', src: 'https://picsum.photos/seed/tennis-home/800/500' },
-							{ label: 'Lessons', src: 'https://picsum.photos/seed/tennis-lessons/800/500' }
-						]
-					}
-				],
-				demo: 'https://tcms-demo.bocek.app',
+				demo: 'https://tennis.demo.bocek.app',
+				embedUrl: 'https://tennis.demo.bocek.app',
 				live: 'https://ktutenis.com',
 				status: { label: 'Live', color: 'green' }
 			},
-			{
-				slug: 'food-recipe-platform',
-				title: 'Food Recipe Sharing Platform',
-				description: 'A platform where users can add, search, rate, and share recipes.',
-				detailDescription: 'A social recipe sharing platform where food enthusiasts can discover, create, and share their favorite recipes. Built with Node.js and Express for the backend API, MongoDB for flexible recipe data storage, and Next.js for a fast, SEO-friendly frontend. Features include advanced recipe search with filters, ingredient-based suggestions, user ratings and reviews, recipe collections, and social sharing capabilities. The platform supports image uploads, nutritional information calculation, and step-by-step cooking instructions.',
-				tech: ['Node.js', 'Express', 'MongoDB', 'Next.js'],
-				sections: [
-					{
-						name: 'Management',
-						pages: [
-							{ label: 'Dashboard', src: 'https://picsum.photos/seed/recipe-panel/800/500' },
-							{ label: 'Approvals', src: 'https://picsum.photos/seed/recipe-approvals/800/500' }
-						]
-					},
-					{
-						name: 'Public',
-						pages: [
-							{ label: 'Home', src: 'https://picsum.photos/seed/recipe-home/800/500' },
-							{ label: 'Recipes', src: 'https://picsum.photos/seed/recipe-list/800/500' },
-							{ label: 'Profile', src: 'https://picsum.photos/seed/recipe-profile/800/500' }
-						]
-					}
-				],
-				github: 'https://github.com/HasanBocek/Food-Recipe-Backend',
-				status: { label: 'Completed', color: 'blue' }
-			},
-			{
-				slug: 'hotel-management',
-				title: 'Hotel Property Management System',
-				description: 'Hotel management system including reservations, room distribution, billing, and staff operations.',
-				detailDescription: 'A complete hotel property management system (PMS) designed for small to mid-size hotels and boutique accommodations. The system handles reservations with availability calendars, room assignment and status tracking, guest check-in/check-out workflows, billing and invoicing, and staff task management. Built with Node.js and Express for reliable backend services and MongoDB for flexible data modeling. Includes reporting dashboards for occupancy rates, revenue tracking, and guest analytics.',
-				tech: ['Node.js', 'Express', 'MongoDB'],
-				sections: [
-					{
-						name: 'Management',
-						pages: [
-							{ label: 'Dashboard', src: 'https://picsum.photos/seed/hotel-panel/800/500' },
-							{ label: 'Staff', src: 'https://picsum.photos/seed/hotel-staff/800/500' },
-							{ label: 'Reports', src: 'https://picsum.photos/seed/hotel-reports/800/500' }
-						]
-					},
-					{
-						name: 'Operations',
-						pages: [
-							{ label: 'Reservations', src: 'https://picsum.photos/seed/hotel-reservations/800/500' },
-							{ label: 'Rooms', src: 'https://picsum.photos/seed/hotel-rooms/800/500' },
-							{ label: 'Guests', src: 'https://picsum.photos/seed/hotel-guests/800/500' }
-						]
-					}
-				],
-				github: 'https://github.com/HasanBocek/Hotel-Property-Management-System',
-				status: { label: 'Completed', color: 'blue' }
-			},
-			{
-				slug: 'student-progress-tracker',
-				title: 'Student Progress Tracker',
-				description: 'Student progress tracking and performance analytics system for educational institutions.',
-				detailDescription: 'An analytics-driven student progress tracking system designed for educational institutions to monitor and improve student performance. Built with Node.js, Express, and MongoDB on the backend, with EJS templates and Bootstrap for the frontend. Features include student enrollment management, grade tracking with visual progress charts, attendance monitoring, performance analytics with trend analysis, and automated progress reports. Teachers can create assignments, track submissions, and identify students who need additional support through the dashboard.',
-				tech: ['Node.js', 'Express', 'MongoDB', 'EJS', 'Bootstrap'],
-				sections: [
-					{
-						name: 'Management',
-						pages: [
-							{ label: 'Dashboard', src: 'https://picsum.photos/seed/student-panel/800/500' },
-							{ label: 'Classes', src: 'https://picsum.photos/seed/student-classes/800/500' }
-						]
-					},
-					{
-						name: 'Operations',
-						pages: [
-							{ label: 'Students', src: 'https://picsum.photos/seed/student-list/800/500' },
-							{ label: 'Grades', src: 'https://picsum.photos/seed/student-grades/800/500' },
-							{ label: 'Attendance', src: 'https://picsum.photos/seed/student-attendance/800/500' }
-						]
-					},
-					{
-						name: 'Public',
-						pages: [
-							{ label: 'Login', src: 'https://picsum.photos/seed/student-login/800/500' },
-							{ label: 'Reports', src: 'https://picsum.photos/seed/student-reports/800/500' }
-						]
-					}
-				],
-				github: 'https://github.com/HasanBocek/spt',
-				status: { label: 'Completed', color: 'blue' }
-			}
 		],
 		buttons: {
 			github: 'Source Code',

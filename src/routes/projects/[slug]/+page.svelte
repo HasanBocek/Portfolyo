@@ -242,13 +242,11 @@
 					<!-- Image preview -->
 					<div class="min-w-0 flex-grow">
 						{#if currentImage}
-							<div class="border-border overflow-hidden rounded-xl border">
-								<img
-									src={currentImage.src}
-									alt="{project.title} - {currentImage.label}"
-									class="h-auto w-full object-cover"
-								/>
-							</div>
+							<img
+								src={currentImage.src}
+								alt="{project.title} - {currentImage.label}"
+								class="block h-auto w-full"
+							/>
 							<p class="text-muted-foreground mt-2 text-xs">
 								{project.sections[selectedSection].name} / {currentImage.label}
 							</p>

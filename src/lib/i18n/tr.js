@@ -37,6 +37,15 @@ export const tr = {
 		subtitle: 'Gerçek işlerden örnekler. Benzer bir ihtiyacınız varsa rahatça ulaşabilirsiniz.',
 		items: [
 			{
+				slug: 'kortnet',
+				title: 'KortNet - Tenis Ağı ve Rekabet Merkezi',
+				description: 'Maç paylaşımı, düello, turnuva ve kulüp bağlantısı sunan tenis sosyal ağı. Şu an bekleme listesi aşamasında.',
+				detailDescription: 'Tenis deneyimini dijitale taşıyan sosyal bir platform. Maç sonuçlarını paylaşma, rakiplere düello daveti gönderme, bölgesel turnuvalara katılma ve kulüplerle bağda kalma gibi özellikler hedefleniyor. WhatsApp grupları yerine tenisçiler için tasarlanmış sosyal akış, mesajlaşma ve rekabetçi sıralama sistemi planlanıyor. Aktif olarak geliştiriliyor; erken erişim için bekleme listesi açık.',
+				tech: ['Next.js', 'TypeScript'],
+				live: 'https://kortnet.com',
+				status: { label: 'Geliştiriliyor', color: 'yellow' }
+			},
+			{
 				slug: 'menuvix',
 				title: 'MenuVix - Restoran POS Sistemi',
 				description: 'Siparişten mutfağa, kasadan raporlamaya kadar restoran operasyonlarını uçtan uca yöneten POS sistemi.',

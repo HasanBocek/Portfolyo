@@ -37,6 +37,15 @@ export const en = {
 		subtitle: 'Real client work. Reach out if you need something similar.',
 		items: [
 			{
+				slug: 'kortnet',
+				title: 'KortNet - Tennis Network & Competition Hub',
+				description: 'A tennis social network for match sharing, challenges, tournaments, and club connections. Currently on waitlist.',
+				detailDescription: 'A social platform bringing the tennis experience online. Planned features include match result sharing, challenge invites, regional tournaments, and staying connected with your club. Designed to replace scattered WhatsApp groups with a social feed, messaging, and competitive rankings built for tennis players. Actively in development — join the waitlist for early access.',
+				tech: ['Next.js', 'TypeScript'],
+				live: 'https://kortnet.com',
+				status: { label: 'In Development', color: 'yellow' }
+			},
+			{
 				slug: 'menuvix',
 				title: 'MenuVix - Restaurant POS System',
 				description: 'End-to-end restaurant POS covering orders, kitchen display, payments, and reporting.',

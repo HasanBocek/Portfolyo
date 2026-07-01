@@ -9,7 +9,7 @@
 </script>
 
 <section id="projects" class="px-6 py-15">
-	<div class="mx-auto max-w-4xl">
+	<div class="mx-auto max-w-6xl">
 		<div class="mb-12 text-center">
 			<h2 class="mb-2 text-2xl font-bold tracking-tight text-foreground sm:text-3xl">
 				{$t('projects.title')}
@@ -17,7 +17,7 @@
 			<p class="text-sm text-muted-foreground">{$t('projects.subtitle')}</p>
 		</div>
 
-		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 			{#each $t('projects.items') as project}
 				<div class="group flex flex-col rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/10 hover:shadow-sm">
 					<!-- Header -->

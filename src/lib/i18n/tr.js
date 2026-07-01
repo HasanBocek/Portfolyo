@@ -92,6 +92,16 @@ export const tr = {
 				status: { label: 'Canlı', color: 'green' }
 			},
 			{
+				slug: 'on-muhasebe-erp',
+				title: 'Ön Muhasebe ERP',
+				description: 'Cari hesap, stok, kasa, fatura ve raporlama modüllerini kapsayan modern ön muhasebe ERP sistemi.',
+				detailDescription: 'Windows masaüstü deneyimini tarayıcıya taşıyan modern bir ön muhasebe ERP uygulamasıdır. Cari hesap yönetimi, stok ve depo takibi, kasa ve banka işlemleri, fatura oluşturma, çek/senet yönetimi, hızlı tahsilat ve kapsamlı raporlama modüllerini tek bir arayüzde sunar. Dashboard üzerinden tüm modüllere hızlı erişim sağlanır; arama, filtreleme ve detaylı hareket takibi ile günlük muhasebe operasyonları kolaylaştırılır.',
+				tech: ['Next.js', 'TypeScript'],
+				demo: 'https://erp.demo.bocek.app',
+				embedUrl: 'https://erp.demo.bocek.app',
+				status: { label: 'Demo', color: 'yellow' }
+			},
+			{
 				slug: 'nodx',
 				title: 'Nodx',
 				description: 'Nodx modern teknoloji ile kurumsal düzeyde web çözümleri sunuyor.',
@@ -149,7 +159,9 @@ export const tr = {
 			tech: 'Teknolojiler',
 			links: 'Bağlantılar',
 			sections: 'Bölümler',
-			pages: 'Sayfalar'
+			pages: 'Sayfalar',
+			liveDemo: 'Canlı Demo',
+			embedHint: 'Tam ekran deneyim için yukarıdaki demo bağlantısını kullanabilirsiniz.'
 		}
 	},
 

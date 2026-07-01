@@ -164,8 +164,26 @@
 				</div>
 			</div>
 
-			<!-- Sections + Sidebar + Image -->
-			{#if project.sections && project.sections.length > 0}
+			<!-- Embedded live demo -->
+			{#if project.embedUrl}
+				<div class="mb-10">
+					<h2 class="text-foreground mb-4 text-lg font-semibold">
+						{$t('projects.detailPage.liveDemo')}
+					</h2>
+					<div class="border-border overflow-hidden rounded-xl border bg-card">
+						<iframe
+							src={project.embedUrl}
+							title={project.title}
+							class="h-[70vh] min-h-[480px] w-full border-0"
+							loading="lazy"
+							allow="fullscreen"
+						></iframe>
+					</div>
+					<p class="text-muted-foreground mt-2 text-sm">
+						{$t('projects.detailPage.embedHint')}
+					</p>
+				</div>
+			{:else if project.sections && project.sections.length > 0}
 				<!-- Section tabs -->
 				<div class="mb-4">
 					<p class="text-muted-foreground mb-2 text-xs font-medium tracking-wider uppercase">

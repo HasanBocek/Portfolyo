@@ -92,6 +92,16 @@ export const en = {
 				status: { label: 'Live', color: 'green' }
 			},
 			{
+				slug: 'on-muhasebe-erp',
+				title: 'Pre-Accounting ERP',
+				description: 'A modern pre-accounting ERP system covering accounts, inventory, cash, invoicing, and reporting modules.',
+				detailDescription: 'A modern pre-accounting ERP application that brings a Windows desktop experience to the browser. It offers account management, inventory and warehouse tracking, cash and bank operations, invoice creation, check/bill management, quick collection, and comprehensive reporting modules in a single interface. The dashboard provides quick access to all modules, with search, filtering, and detailed transaction tracking to streamline daily accounting operations.',
+				tech: ['Next.js', 'TypeScript'],
+				demo: 'https://erp.demo.bocek.app',
+				embedUrl: 'https://erp.demo.bocek.app',
+				status: { label: 'Demo', color: 'yellow' }
+			},
+			{
 				slug: 'nodx',
 				title: 'Nodx',
 				description: 'Nodx provides enterprise-level web solutions with modern technology.',
@@ -231,7 +241,10 @@ export const en = {
 			back: 'Back to Projects',
 			tech: 'Technologies',
 			links: 'Links',
-			pages: 'Pages'
+			sections: 'Sections',
+			pages: 'Pages',
+			liveDemo: 'Live Demo',
+			embedHint: 'Use the demo link above for a full-screen experience.'
 		}
 	},
 

@@ -107,8 +107,8 @@ export const en = {
 				description: 'Club management platform for KTU Tennis Club — member management, lesson scheduling, and attendance tracking.',
 				detailDescription: 'A comprehensive platform digitizing daily operations for KTU Tennis Club. Built with Svelte, Node.js, and MongoDB, it covers member registration, group and private lesson scheduling, QR-based attendance, payment tracking, and automated notifications. Administrators and coaches manage schedules while members book sessions through an intuitive interface.',
 				tech: ['Svelte', 'Node.js', 'MongoDB'],
-				demo: 'https://tennis.demo.bocek.app',
-				embedUrl: 'https://tennis.demo.bocek.app',
+				demo: 'https://tenis.demo.bocek.app',
+				embedUrl: 'https://tenis.demo.bocek.app',
 				live: 'https://ktutenis.com',
 				status: { label: 'Live', color: 'green' }
 			},

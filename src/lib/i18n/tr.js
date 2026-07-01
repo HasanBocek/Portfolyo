@@ -107,8 +107,8 @@ export const tr = {
 				description: 'KTÜ Tenis Kulübü için üye yönetimi, ders planlama ve yoklama takibini kapsayan kulüp yönetim platformu.',
 				detailDescription: 'KTÜ Tenis Kulübü\'nün günlük operasyonlarını dijitalleştiren kapsamlı bir yönetim platformu. Svelte tabanlı arayüz, Node.js backend ve MongoDB ile geliştirilmiştir. Üye kaydı ve yönetimi, grup ve özel ders planlama, QR kodlu yoklama, ödeme takibi ve otomatik bildirimler içerir. Yöneticiler ve antrenörler programlarını kolayca yönetirken üyeler sezgisel arayüzden ders rezervasyonu yapabilir.',
 				tech: ['Svelte', 'Node.js', 'MongoDB'],
-				demo: 'https://tennis.demo.bocek.app',
-				embedUrl: 'https://tennis.demo.bocek.app',
+				demo: 'https://tenis.demo.bocek.app',
+				embedUrl: 'https://tenis.demo.bocek.app',
 				live: 'https://ktutenis.com',
 				status: { label: 'Canlı', color: 'green' }
 			}

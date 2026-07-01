@@ -136,6 +136,13 @@ export const en = {
 		active: "Active",
 		items: [
 			{
+				role: 'Full Stack Developer',
+				company: 'Eupholias Developers',
+				companyUrl: 'https://eupholias.com',
+				period: 'Dec 2025 - Apr 2026',
+				current: false
+			},
+			{
 				role: 'Frontend Developer',
 				company: 'Freelance',
 				companyUrl: '',
@@ -214,13 +221,5 @@ export const en = {
 	// Footer
 	footer: {
 		rights: 'All rights reserved.'
-	},
-
-	// WakaTime
-	wakatime: {
-		loading: 'Loading...',
-		error: 'Could not load coding time',
-		prefix: 'This Month\'s Coding Time:',
-		since: 'since Dec 21, 2025'
 	}
 };

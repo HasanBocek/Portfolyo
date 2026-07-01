@@ -136,27 +136,12 @@ export const tr = {
 		active: 'Aktif',
 		items: [
 			{
-				role: 'Frontend Developer',
-				company: 'Freelance',
-				companyUrl: '',
-				period: '2025 - Devam Ediyor',
-				current: true
+				role: 'Full Stack Developer',
+				company: 'Eupholias Developers',
+				companyUrl: 'https://eupholias.com',
+				period: 'Ara 2025 - Nis 2026',
+				current: false
 			},
-			{
-				role: 'Backend Developer',
-				company: 'Freelance',
-				companyUrl: '',
-				period: '2018 - Devam Ediyor',
-				current: true
-			}
-		]
-	},
-
-	// Education
-	experience: {
-		title: 'Deneyim',
-		active: 'Aktif',
-		items: [
 			{
 				role: 'Frontend Developer',
 				company: 'Freelance',
@@ -236,13 +221,5 @@ export const tr = {
 	// Footer
 	footer: {
 		rights: 'Tüm hakları saklıdır.'
-	},
-
-	// WakaTime
-	wakatime: {
-		loading: 'Yükleniyor...',
-		error: 'Kodlama süresi yüklenemedi',
-		prefix: 'Bu Ayın Kodlama Süresi:',
-		since: '21 Aralık 2025\'ten beri'
 	}
 };

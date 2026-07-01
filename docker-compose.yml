@@ -12,4 +12,3 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3000
-      - VITE_WAKATIME_API_KEY=${VITE_WAKATIME_API_KEY}

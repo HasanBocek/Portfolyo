@@ -21,6 +21,7 @@ export const en = {
 		{ name: 'GitHub', url: 'https://github.com/HasanBocek' },
 		{ name: 'LinkedIn', url: 'https://linkedin.com/in/hasanbocek' },
 		{ name: 'Instagram', url: 'https://instagram.com/hasanbocekk' },
+		{ name: 'WhatsApp', url: 'https://wa.me/message/6QJRRBGFX2NUP1' },
 		{ name: 'Mail', url: 'mailto:contact@hasanbocek.com' }
 	],
 
@@ -223,8 +224,10 @@ export const en = {
 	// Contact
 	contact: {
 		title: 'Get in touch about your project',
-		description: 'A short email is enough — tell me what you need and your timeline if you have one. I usually reply within a few hours.',
-		email: 'contact@hasanbocek.com'
+		description: 'A short email or WhatsApp message is enough — tell me what you need and your timeline if you have one. I usually reply within a few hours.',
+		email: 'contact@hasanbocek.com',
+		whatsapp: 'https://wa.me/message/6QJRRBGFX2NUP1',
+		whatsappLabel: 'WhatsApp'
 	},
 
 	// Footer

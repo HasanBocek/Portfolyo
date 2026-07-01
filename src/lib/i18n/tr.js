@@ -21,6 +21,7 @@ export const tr = {
 		{ name: 'GitHub', url: 'https://github.com/HasanBocek' },
 		{ name: 'LinkedIn', url: 'https://linkedin.com/in/hasanbocek' },
 		{ name: 'Instagram', url: 'https://instagram.com/hasanbocekk' },
+		{ name: 'WhatsApp', url: 'https://wa.me/message/6QJRRBGFX2NUP1' },
 		{ name: 'Mail', url: 'mailto:contact@hasanbocek.com' }
 	],
 
@@ -223,8 +224,10 @@ export const tr = {
 	// Contact
 	contact: {
 		title: 'Projeniz için yazın',
-		description: 'Kısa bir mail yeterli — ne istediğinizi, varsa zaman çizelgenizi yazın, gerisini birlikte netleştiririz. Genelde birkaç saat içinde dönerim.',
-		email: 'contact@hasanbocek.com'
+		description: 'Kısa bir mail veya WhatsApp mesajı yeterli — ne istediğinizi, varsa zaman çizelgenizi yazın, gerisini birlikte netleştiririz. Genelde birkaç saat içinde dönerim.',
+		email: 'contact@hasanbocek.com',
+		whatsapp: 'https://wa.me/message/6QJRRBGFX2NUP1',
+		whatsappLabel: 'WhatsApp'
 	},
 
 	// Footer
